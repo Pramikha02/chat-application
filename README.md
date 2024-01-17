@@ -45,4 +45,51 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone https://github.com/your-username/mern-chat-app.git
 
+# Getting Started
+
+1. Change into the project directory:
+
+    ```bash
+    cd mern-chat-app
+    ```
+
+2. Install server dependencies:
+
+    ```bash
+    cd server
+    npm install
+    ```
+
+3. Install client dependencies:
+
+    ```bash
+    cd client
+    npm install
+    ```
+
+4. Create a `.env` file in the `server` folder and set your environment variables:
+
+    ```env
+    MONGODB_URI=your_mongodb_connection_string
+    JWT_SECRET=your_jwt_secret
+    ```
+
+5. Run the server:
+
+    ```bash
+    cd server
+    npm start
+    ```
+
+6. Run the client:
+
+    ```bash
+    cd client
+    npm start
+    ```
+
+
+
+
+
 
